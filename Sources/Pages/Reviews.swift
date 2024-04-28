@@ -12,7 +12,12 @@ struct Reviews: StaticPage {
     var title = "Reviews"
 
     func body(context: PublishingContext) -> [BlockElement] {
-        Text("Hello world!")
-            .font(.title1)
+        Group{
+            Text("REVIEWS")
+                .font(.title1)
+                .fontWeight(.black)
+                .margin(.top, .large)
+        }
+        .frame(maxWidth: "90%")
     }
 }

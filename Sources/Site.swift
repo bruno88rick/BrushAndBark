@@ -38,6 +38,11 @@ struct ExampleSite: Site {
         Reviews()
         Services()
     }
+    
+    var layouts: [any ContentPage] {
+        BlogPost()
+    }
+    
 }
 
 
